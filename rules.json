@@ -1,0 +1,8 @@
+{
+  "default_mode": "hiragana",
+  "rules": [
+    { "in": "ka", "out": { "hiragana": "か", "katakana": "カ" } },
+    { "in": "ki", "out": { "hiragana": "き", "katakana": "キ" } },
+    { "in": "ku", "out": { "hiragana": "く", "katakana": "ク" } }
+  ]
+}
