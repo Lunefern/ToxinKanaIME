@@ -1,3 +1,0 @@
-E:\A\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\ToxinKanaIME.dir/objects.a
-E:\A\QT\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\ToxinKanaIME.dir/objects.a @CMakeFiles\ToxinKanaIME.dir\objects1.rsp
-E:\A\QT\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\ToxinKanaIME.dir/objects.a -Wl,--no-whole-archive -o ToxinKanaIME.exe -Wl,--out-implib,libToxinKanaIME.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ToxinKanaIME.dir\linkLibs.rsp
