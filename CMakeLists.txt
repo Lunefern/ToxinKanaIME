@@ -46,6 +46,9 @@ else()
 endif()
 
 target_link_libraries(ToxinKanaIME PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_compile_definitions(ToxinKanaIME PRIVATE
+    TOXIN_RULES_PATH="${CMAKE_CURRENT_SOURCE_DIR}/rules.json"
+)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

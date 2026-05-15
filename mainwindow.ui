@@ -6,45 +6,163 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>760</width>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>ToxinKanaIME</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="inputEdit">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>330</y>
-      <width>411</width>
-      <height>71</height>
-     </rect>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>24</number>
     </property>
-   </widget>
-   <widget class="QLabel" name="outputLabel">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>190</y>
-      <width>411</width>
-      <height>81</height>
-     </rect>
+    <property name="topMargin">
+     <number>24</number>
     </property>
-    <property name="text">
-     <string>TextLabel</string>
+    <property name="rightMargin">
+     <number>24</number>
     </property>
-   </widget>
+    <property name="bottomMargin">
+     <number>24</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="styleSheet">
+       <string notr="true">font-size: 22px; font-weight: 700;</string>
+      </property>
+      <property name="text">
+       <string>ToxinKanaIME Demo</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="modeLayout">
+      <item>
+       <widget class="QLabel" name="modeLabel">
+        <property name="text">
+         <string>输入模式</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="modeValueLabel">
+        <property name="styleSheet">
+         <string notr="true">font-weight: 600;</string>
+        </property>
+        <property name="text">
+         <string>平假名</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="modeButton">
+        <property name="text">
+         <string>切换模式</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="rulesTitleLabel">
+      <property name="text">
+       <string>规则文件</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="rulesPathLabel">
+      <property name="text">
+       <string>rules.json</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="inputEdit"/>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="commitGroup">
+      <property name="title">
+       <string>Commit</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="commitLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size: 24px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="preeditGroup">
+      <property name="title">
+       <string>Preedit</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="preeditLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size: 24px; color: #9a3412;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>20</height>
+     <width>760</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>

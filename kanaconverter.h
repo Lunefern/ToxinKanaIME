@@ -9,7 +9,20 @@
 class KanaConverter
 {
 public:
+    struct Composition {
+        QString commit;
+        QString preedit;
+    };
+
     KanaConverter(const QString& jsonPath);
+
+    QString convert(const QString& text);
+    Composition compose(const QString& text);
+
+    bool reload();
+    InputMode currentMode() const;
+    InputMode defaultMode() const;
+    QString rulesPath() const;
 
     void setMode(InputMode mode);
 
@@ -26,15 +39,16 @@ private:
         QString katakana;
     };
 
+    QString jsonPath;
     QMap<QString, Rule> table;
 
     InputMode mode;
+    InputMode defaultInputMode;
 
     QString buffer;
-    QString preeditText;
     QString commitText;
 
-    void loadFromJson(const QString& path);
+    bool loadFromJson(const QString& path);
     void processBuffer();
     void updateMaxKeyLength();
 

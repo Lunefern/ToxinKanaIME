@@ -2,10 +2,11 @@ CMakeFiles/ToxinKanaIME.dir/ToxinKanaIME_autogen/mocs_compilation.cpp.obj: \
  E:\DOC2\QtProject\ToxinKanaIME\ToxinKanaIME\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\ToxinKanaIME_autogen\mocs_compilation.cpp \
  E:\DOC2\QtProject\ToxinKanaIME\ToxinKanaIME\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\ToxinKanaIME_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/mainwindow.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QFileSystemWatcher \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qfilesystemwatcher.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qobject.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qobjectdefs.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qnamespace.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qglobal.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -153,14 +154,6 @@ CMakeFiles/ToxinKanaIME.dir/ToxinKanaIME_autogen/mocs_compilation.cpp.obj: \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qtresource.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qttranslation.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qversiontagging.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qtgui-config.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qobjectdefs.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qnamespace.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcompare.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qstdlibdetection.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcomparehelpers.h \
@@ -232,8 +225,6 @@ CMakeFiles/ToxinKanaIME.dir/ToxinKanaIME_autogen/mocs_compilation.cpp.obj: \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qobject.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qstring.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qchar.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qstringview.h \
@@ -333,6 +324,17 @@ CMakeFiles/ToxinKanaIME.dir/ToxinKanaIME_autogen/mocs_compilation.cpp.obj: \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qtgui-config.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qmargins.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcheckedint_impl.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/q23utility.h \
@@ -387,6 +389,12 @@ CMakeFiles/ToxinKanaIME.dir/ToxinKanaIME_autogen/mocs_compilation.cpp.obj: \
  E:/A/QT/6.11.0/mingw_64/include/QtGui/qcursor.h \
  E:/A/QT/6.11.0/mingw_64/include/QtGui/qbitmap.h \
  E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QTimer \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qtimer.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qeventloop.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
  E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/kanaconverter.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/QString \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/QMap \

@@ -1,10 +1,11 @@
 CMakeFiles/ToxinKanaIME.dir/main.cpp.obj: \
  E:\DOC2\QtProject\ToxinKanaIME\ToxinKanaIME\main.cpp \
  E:\DOC2\QtProject\ToxinKanaIME\ToxinKanaIME\mainwindow.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QFileSystemWatcher \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qfilesystemwatcher.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qobject.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qobjectdefs.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qnamespace.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qglobal.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -152,14 +153,6 @@ CMakeFiles/ToxinKanaIME.dir/main.cpp.obj: \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qtresource.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qttranslation.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qversiontagging.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qtgui-config.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qobjectdefs.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qnamespace.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcompare.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qstdlibdetection.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcomparehelpers.h \
@@ -231,8 +224,6 @@ CMakeFiles/ToxinKanaIME.dir/main.cpp.obj: \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qobject.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qstring.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qchar.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qstringview.h \
@@ -332,6 +323,17 @@ CMakeFiles/ToxinKanaIME.dir/main.cpp.obj: \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
  E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qtgui-config.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qmargins.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcheckedint_impl.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/q23utility.h \
@@ -386,6 +388,12 @@ CMakeFiles/ToxinKanaIME.dir/main.cpp.obj: \
  E:/A/QT/6.11.0/mingw_64/include/QtGui/qcursor.h \
  E:/A/QT/6.11.0/mingw_64/include/QtGui/qbitmap.h \
  E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QTimer \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qtimer.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qeventloop.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
  E:\DOC2\QtProject\ToxinKanaIME\ToxinKanaIME\kanaconverter.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/QString \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/QMap \
@@ -407,12 +415,48 @@ CMakeFiles/ToxinKanaIME.dir/main.cpp.obj: \
  E:/A/QT/6.11.0/mingw_64/include/QtWidgets/qapplication.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcoreapplication.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcoreevent.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qeventloop.h \
- E:/A/QT/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qnativeinterface.h \
  E:/A/QT/6.11.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
  E:/A/QT/6.11.0/mingw_64/include/QtGui/qguiapplication.h \
  E:/A/QT/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
- E:/A/QT/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h
+ E:/A/QT/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QCoreApplication \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QDir \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qdir.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qdirlisting.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qfiledevice.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qiodevice.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ E:/A/QT/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ E:/A/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qfile.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qfileinfo.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/qtimezone.h \
+ E:/A/QT/6.11.0/mingw_64/include/QtCore/QFileInfo

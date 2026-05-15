@@ -406,6 +406,7 @@
 		"QT_NEEDS_QMAIN",
 		"QT_QML_DEBUG",
 		"QT_WIDGETS_LIB",
+		"TOXIN_RULES_PATH=\"E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/rules.json\"",
 		"UNICODE",
 		"WIN32",
 		"WIN64",

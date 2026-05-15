@@ -1,30 +1,40 @@
 #include <QFile>
-#include <QJsonValue>
+#include <QJsonDocument>
 #include <QJsonArray>
+#include <QJsonParseError>
+#include <utility>
 #include "kanaconverter.h"
 
 KanaConverter::KanaConverter(const QString& jsonPath)
+    : jsonPath(jsonPath)
+    , mode(InputMode::Hiragana)
+    , defaultInputMode(InputMode::Hiragana)
+    , cachedMaxLen(1)
 {
-    cachedMaxLen = 1;
-    loadFromJson(jsonPath);
+    if (loadFromJson(jsonPath))
+        mode = defaultInputMode;
 }
 
-void KanaConverter::loadFromJson(const QString& path)
+bool KanaConverter::loadFromJson(const QString& path)
 {
-    updateMaxKeyLength();
     QFile file(path);
     if (!file.open(QIODevice::ReadOnly))
-        return;
+        return false;
 
-    QJsonDocument doc = QJsonDocument::fromJson(file.readAll());
+    QJsonParseError parseError;
+    QJsonDocument doc = QJsonDocument::fromJson(file.readAll(), &parseError);
+    if (parseError.error != QJsonParseError::NoError || !doc.isObject())
+        return false;
+
     QJsonObject root = doc.object();
 
     QString defaultMode = root["default_mode"].toString();
+    InputMode loadedDefaultMode = InputMode::Hiragana;
 
     if (defaultMode == "katakana")
-        mode = InputMode::Katakana;
-    else
-        mode = InputMode::Hiragana;
+        loadedDefaultMode = InputMode::Katakana;
+
+    QMap<QString, Rule> newTable;
 
     QJsonArray rules = root["rules"].toArray();
 
@@ -39,8 +49,71 @@ void KanaConverter::loadFromJson(const QString& path)
         rule.hiragana = out["hiragana"].toString();
         rule.katakana = out["katakana"].toString();
 
-        table[in] = rule;
+        if (!in.isEmpty())
+            newTable[in] = rule;
     }
+
+    table = std::move(newTable);
+    defaultInputMode = loadedDefaultMode;
+    updateMaxKeyLength();
+    if (table.isEmpty())
+        cachedMaxLen = 1;
+
+    return true;
+}
+
+bool KanaConverter::reload()
+{
+    const InputMode preservedMode = mode;
+    const bool loaded = loadFromJson(jsonPath);
+    if (loaded)
+        mode = preservedMode;
+
+    return loaded;
+}
+
+QString KanaConverter::convert(const QString& text)
+{
+    const Composition composition = compose(text);
+    return composition.commit + composition.preedit;
+}
+
+KanaConverter::Composition KanaConverter::compose(const QString& text)
+{
+    clear();
+
+    for (const QChar c : text)
+        pushChar(c);
+
+    Composition composition{commitText, buffer};
+    clear();
+    return composition;
+}
+
+InputMode KanaConverter::currentMode() const
+{
+    return mode;
+}
+
+InputMode KanaConverter::defaultMode() const
+{
+    return defaultInputMode;
+}
+
+QString KanaConverter::rulesPath() const
+{
+    return jsonPath;
+}
+
+void KanaConverter::setMode(InputMode newMode)
+{
+    mode = newMode;
+}
+
+void KanaConverter::pushChar(QChar c)
+{
+    buffer += c;
+    processBuffer();
 }
 
 void KanaConverter::processBuffer()
@@ -130,4 +203,9 @@ int KanaConverter::computeMaxKeyLength() const
 void KanaConverter::updateMaxKeyLength()
 {
     cachedMaxLen = computeMaxKeyLength();
+}
+
+int KanaConverter::maxKeyLength() const
+{
+    return cachedMaxLen;
 }

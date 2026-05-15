@@ -1,8 +1,10 @@
 E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/ToxinKanaIME_autogen/EWIEGA46WW/moc_mainwindow.cpp: E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/mainwindow.h \
   E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/ToxinKanaIME_autogen/moc_predefs.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/QFileSystemWatcher \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/QJsonObject \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/QMap \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/QString \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/QTimer \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/q17memory.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/q20bit.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/q20functional.h \
@@ -12,6 +14,7 @@ E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/build/Desktop_Qt_6_11_0_MinGW_64_bit
   E:/A/QT/6.11.0/mingw_64/include/QtCore/q20utility.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/q23type_traits.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/q23utility.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qalgorithms.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qalloc.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qanystringview.h \
@@ -22,6 +25,7 @@ E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/build/Desktop_Qt_6_11_0_MinGW_64_bit
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qatomic.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qbasicatomic.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qbindingstorage.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qbytearray.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -45,9 +49,12 @@ E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/build/Desktop_Qt_6_11_0_MinGW_64_bit
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qdatastream.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qdatetime.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qdebug.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qendian.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/qeventloop.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qexceptionhandling.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/qfilesystemwatcher.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qflags.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qfloat16.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qforeach.h \
@@ -125,6 +132,7 @@ E:/DOC2/QtProject/ToxinKanaIME/ToxinKanaIME/build/Desktop_Qt_6_11_0_MinGW_64_bit
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qtextstream.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qtformat_impl.h \
+  E:/A/QT/6.11.0/mingw_64/include/QtCore/qtimer.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qtmetamacros.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qtnoop.h \
   E:/A/QT/6.11.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
